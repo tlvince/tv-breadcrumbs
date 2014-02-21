@@ -1,0 +1,36 @@
+{
+  "name": "tv-breadcrumbs",
+  "version": "0.1.1",
+  "devDependencies": {
+    "angular": "1.2.13",
+    "angular-ui-router": "0.2.8-bowratic-tedium",
+    "bootstrap-css": "~3.0.0",
+    "tv-breadcrumbs": "*"
+  },
+  "authors": [
+    "Tom Vincent <git@tlvince.com>"
+  ],
+  "description": "Generate breadcrumbs from AngularUI router states",
+  "main": "dist/tv-breadcrumbs.min.js",
+  "keywords": [
+    "breadcrumbs",
+    "angular",
+    "angularui",
+    "angularjs"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tlvince/tv-breadcrumbs",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "sample/bower_components",
+    "test",
+    "tests",
+    "sample",
+    "Gruntfile.js",
+    "src",
+    "package.json",
+    ".bower.json"
+  ]
+}
