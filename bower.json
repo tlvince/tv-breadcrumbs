@@ -20,7 +20,7 @@
     "angularjs"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/tlvince/angular-ui-router-breadcrumbs",
+  "homepage": "https://github.com/tlvince/tv-breadcrumbs",
   "ignore": [
     "**/.*",
     "node_modules",

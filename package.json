@@ -28,5 +28,16 @@
     "angularjs"
   ],
   "author": "Tom Vincent <http://tlvince.com/contact>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tlvince/tv-breadcrumbs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tlvince/tv-breadcrumbs/issues"
+  },
+  "homepage": "https://github.com/tlvince/tv-breadcrumbs"
 }
