@@ -16,7 +16,7 @@ module.exports = function (grunt) {
       '<%= grunt.template.today("yyyy-mm-dd") %>\n' +
       '<%= pkg.homepage ? "// " + pkg.homepage + "\\n" : "" %>' +
       '// © <%= grunt.template.today("yyyy") %> <%= pkg.author %>\n' +
-      '// License: <%= pkg.license %>\n\n',
+      '// License: <%= pkg.license %>\n',
     // Task configuration.
     concat: {
       options: {
