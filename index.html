@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en" ng-app="uiRouterSample">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="bower_components/bootstrap-css/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title ng-bind="$state.current.name + ' - tv-breadcrumbs'">tv-breadcrumbs</title>
+  </head>
+  <body>
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" ui-sref="home">tv-breadcrumbs</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li ui-sref-active="active"><a ui-sref="contacts.list">Contacts</a></li>
+          <li ui-sref-active="active"><a ui-sref="about">About</a></li>
+        </ul>
+        <p ui-view="hint" class="navbar-text pull-right"></p>
+      </div>
+    </div>
+
+    <div id="content" class="container">
+      <div tv-breadcrumbs></div>
+
+      <div ui-view></div>
+    </div>
+
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+
+    <script src="bower_components/tv-breadcrumbs/dist/tv-breadcrumbs.min.js"></script>
+
+    <script src="module.js"></script>
+    <script src="factory.js"></script>
+    <script src="states.js"></script>
+  </body>
+</html>
