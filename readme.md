@@ -43,7 +43,13 @@ bower install tv-breadcrumbs
 
 ## Alternatives
 
-* [ncuillery/angular-breadcrumb](https://github.com/ncuillery/angular-breadcrumb)
+AngularUI Router-based:
+
+* [ncuillery/angular-breadcrumb][ncuillery]
+* [interval-braining/angular-ui-router-breadcrumbs][interval-braining]
+
+[ncuillery]: https://github.com/ncuillery/angular-breadcrumb
+[interval-braining]: https://github.com/interval-braining/angular-ui-router-breadcrumbs
 
 ## Author
 
