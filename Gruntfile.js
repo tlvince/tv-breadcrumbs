@@ -54,8 +54,8 @@ module.exports = function (grunt) {
         tasks: ['jshint:gruntfile']
       },
       sources: {
-        files: '<%= jshint.sources.src %>',
-        tasks: ['jshint:sources']
+        files: ['<%= jshint.sources.src %>', 'src/**/*.html'],
+        tasks: ['jshint:sources', 'html2js', 'concat', 'ngmin', 'uglify']
       },
       serve: {
         options: {

@@ -22,13 +22,19 @@ bower install tv-breadcrumbs
     angular.module('App', ['tv.breadcrumbs']);
     ```
 
-3. Include the `tv-breadcrumbs` directive:
+3. Include the `tv-breadcrumbs` directive (as an element or attribute):
 
     ```html
-    <div tv-breadcrumbs></div>
+    <tv-breadcrumbs></tv-breadcrumbs>
     ```
 
-4. Optionally add a `label` property (used as a human-readable breadcrumb
+4. Optionally add a `home` attribute with the value of your home state name:
+
+    ```html
+    <tv-breadcrumbs home="home"></tv-breadcrumbs>
+    ```
+
+5. Optionally add a `label` property (used as a human-readable breadcrumb
    label) to a state's [custom data][data] object:
 
     ```js

@@ -172,7 +172,6 @@ angular.module('uiRouterSample')
               'hint@': {
                 template: 'This is contacts.detail populating the "hint" ui-view'
               },
-
               // This one is targeting the ui-view="menu" within the parent state's template.
               'menuTip': {
                 // templateProvider is the final method for supplying a template.
@@ -184,8 +183,12 @@ angular.module('uiRouterSample')
                     // though the global '$stateParams' has not been updated yet.
                     return '<hr><small class="muted">Contact ID: ' + $stateParams.contactId + '</small>';
                   }]
-              }
+              },
+            },
+            data: {
+              label: 'Contacts detail'
             }
+
           })
 
           //////////////////////////////
@@ -222,6 +225,9 @@ angular.module('uiRouterSample')
               'hint@': {
                 template: ' This is contacts.detail.item overriding the "hint" ui-view'
               }
+            },
+            data: {
+              label: 'Contact detail item'
             }
           })
 

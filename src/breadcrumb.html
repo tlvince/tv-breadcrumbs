@@ -1,6 +1,8 @@
 <ol class="breadcrumb" ng-if="breadcrumbs">
   <li ng-repeat="crumb in breadcrumbs">
-    <a ng-if="!$last" ui-sref="{{crumb}}" ng-bind="crumb"></a>
-    <span ng-if="$last" class="active" ng-bind="crumb"></span>
+    <a ng-if="!$last" ui-sref="{{crumb.name}}"
+      ng-bind="crumb.label ? crumb.label : crumb.name"></a>
+    <span ng-if="$last" class="active"
+      ng-bind="crumb.label ? crumb.label : crumb.name"></span>
   </li>
 </ol>
