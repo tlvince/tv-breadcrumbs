@@ -4,8 +4,7 @@
   "devDependencies": {
     "angular": "1.2.13",
     "angular-ui-router": "0.2.8-bowratic-tedium",
-    "bootstrap-css": "~3.0.0",
-    "tv-breadcrumbs": "*"
+    "bootstrap-css": "~3.0.0"
   },
   "authors": [
     "Tom Vincent <git@tlvince.com>"
